@@ -1,0 +1,315 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #DDDDDD;
+}
+
+/*Estilos del header */
+header {
+  background: #3B3B3B;
+}
+
+.img1-header {
+  height: 50px;
+}
+.img2-header {
+  height: 50px;
+}
+
+nav {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: Helvetica;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+  margin-left: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+header a:hover{
+  color: #3E7FBB;
+  font-size: 15px;
+}
+
+/*estilos del contenedor*/
+.container {
+  width: 95%;
+  margin: auto;
+  background-color: white;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+/*estilos del primer item*/
+.column {
+  /* background: peru; */
+  /* border: 1px solid red; */
+}
+.one {
+  flex-basis: 100%;
+  padding-top: 20px;
+  padding-left: 30px;
+  height: 60px;
+}
+
+.one a {
+  color: #3E7FBB;
+  background: #FEFEDE;
+  padding: 10px 5px;
+  padding-bottom: 10px;
+  margin-right: 10px;
+  font-family: 'Helvetica Neue';
+  font-weight: 500
+}
+
+.one a:nth-of-type(3) {
+  color: black;
+  background: #A4D9E9;
+}
+
+/*estilos del segundo item*/
+.two {
+  flex-basis: 80%;
+}
+
+.two h1,
+h2 {
+  margin-left: 10px;
+}
+
+.two p {
+  font-family: sans-serif;
+  font-size: 18px;
+  margin-left: 16px;
+}
+
+/*Estilos del tercer item*/
+.three {
+  flex-basis: 20%;
+  height: 356px;
+  position: relative;
+}
+
+.three h3 {
+  font-family: 'Helvetica Neue';
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.three h4 {
+  display: inline-block;
+  margin: 0;
+  font-size: 12px;
+  font-family: Helvetica;
+  float: right;
+}
+
+.gallery {
+  position: relative;
+  font-weight: lighter;
+  right: 50px;
+  top: 5px;
+}
+
+.art-speak {
+  position: relative;
+  color: #307CC1;
+  top: -60px;
+  left: -73px;
+}
+
+.thursday {
+  position: relative;
+  color: #393A69;
+  top: -35px;
+  left: 57px;
+}
+
+.gallery-2 {
+  position: relative;
+  font-weight: lighter;
+  right: 50px;
+  top: 5px;
+}
+
+.photography {
+  position: relative;
+  color: #307CC1;
+  top: -60px;
+  left: px;
+}
+
+.thursday-2 {
+  position: relative;
+  color: #393A69;
+  top: -49px;
+  left: -18px;
+}
+
+.two-women {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.gallery-3 {
+  position: relative;
+  font-weight: lighter;
+  left: 80px;
+}
+
+.photography-2 {
+  position: relative;
+  color: #307CC1;
+  top: 5px;
+}
+
+.thursday-3 {
+  position: relative;
+  color: #393A69;
+  top: 15px;
+  right: 17px;
+}
+
+/*Estilos de cuarto item*/
+.four {
+  flex-basis: 80%;
+}
+
+.four p {
+  font-family: sans-serif;
+  font-size: 18px;
+  margin-left: 16px;
+}
+
+/*Estilos del quinto item */
+.five {
+  flex-basis: 80%;
+}
+
+.five-container {
+  display: flex;
+  margin-left: 16px;
+}
+
+.five p {
+  font-family: sans-serif;
+  font-size: 18px;
+  margin: 0;
+}
+
+/*Estilos del sexto item*/
+.six {
+  flex-basis: 80%;
+}
+
+.six-container{
+  display: flex;
+  padding-left: 16px;
+}
+
+.six-information {
+  margin-left: 10px;
+}
+
+.six-information h5 {
+  margin: 0;
+  margin-bottom: 5px;
+  font-family: sans-serif;
+}
+
+.six-information p {
+  font-family: sans-serif;
+  font-size: 18px;
+}
+
+/*Estilos del septimo item */
+.seven {
+  flex-basis: 80%;
+  height: 70px;
+  padding-top: 20px;
+}
+
+.seven p:nth-of-type(1){
+  margin-left: 16px;
+}
+
+.seven span {
+  font-weight: bold;
+}
+
+.seven p {
+  display: inline-block;
+  margin: 0;
+  margin-right: 30px;
+  height: 30px;
+  vertical-align: middle;
+  font-family: 'Helvetica Neue';
+  font-size: 15px;
+}
+
+/*Estilos del octavo item*/
+.eight {
+  flex-basis: 20%;
+  height: 120px;
+}
+
+.eight-container {
+  background-color: #3B4AA0;
+  width: 110%;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  overflow: visible;
+}
+
+.fa-envelope:before {
+  color: red;
+}
+
+.fa-ticket-alt:before {
+  color: red;
+}
+
+.eight-container div {
+  margin-bottom: 10px;
+}
+
+.eight-container p {
+  display: inline;
+  color: white;
+  font-family: 'Helvetica Neue';
+  font-weight: 500;
+}
+
+input {
+  width: 190px;
+  border-radius: 0;
+}
+
+.fa-search:before {
+  background: #ECECEC;
+  padding: 4px 11px;
+  font-size: 10px;
+  position: relative;
+  left:-5px;
+}
